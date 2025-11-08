@@ -2,3 +2,6 @@
 site/
 __pycache__/
 *.pyc
+! > .gitignore
+git add .
+gei commit -m feat:
