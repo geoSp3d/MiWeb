@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: Dani Garcia Test
+theme: 
+  name: material
+nav:
+  - Inicio: index.md
+repo_url: https://github.com/geoSp3d/MiWeb
