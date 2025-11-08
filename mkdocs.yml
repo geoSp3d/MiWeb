@@ -20,5 +20,5 @@ nav:
 
 plugins:
   - search
-  - mkdocs-sitemap-plugin
+
 
