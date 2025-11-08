@@ -1,20 +1,23 @@
 site_name: Dani Garcia Test
 site_url: https://www.danigarcia-sec.xyz
+
 theme:
   name: material
   language: es
+  palette:
+    scheme: default
   features:
     - navigation.instant
-    - navigation.tracking
+    - navigation.top
+    - search.suggest
     - content.code.copy
+
 nav:
   - Inicio: index.md
+  - Sobre mí: sobre-mi.md
+  - Proyectos: proyectos.md
+  - Contacto: contacto.md
+
 plugins:
   - search
-  - sitemap:
-      changefreq: weekly
-      priority: 0.5
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/geoSp3d/MiWeb
+  - sitemap
